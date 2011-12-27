@@ -1,7 +1,41 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStore.Domain", "SportsStore.Domain\SportsStore.Domain.csproj", "{476BF432-B9BC-4ABA-9F64-52CCCD6A9343}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportStore.WebUI", "SportStore.WebUI\SportStore.WebUI.csproj", "{4C3ED0C3-83E8-46B2-A3E3-F81B657D9061}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStore.UnitTests", "SportsStore.UnitTests\SportsStore.UnitTests.csproj", "{234A425F-9F99-4039-95A4-89B6E350EECA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4F2506C4-6B86-4442-B9AC-F55955ACFF98}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		SportsStore.vsmdi = SportsStore.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = SportsStore.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{476BF432-B9BC-4ABA-9F64-52CCCD6A9343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{476BF432-B9BC-4ABA-9F64-52CCCD6A9343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{476BF432-B9BC-4ABA-9F64-52CCCD6A9343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{476BF432-B9BC-4ABA-9F64-52CCCD6A9343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C3ED0C3-83E8-46B2-A3E3-F81B657D9061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C3ED0C3-83E8-46B2-A3E3-F81B657D9061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C3ED0C3-83E8-46B2-A3E3-F81B657D9061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C3ED0C3-83E8-46B2-A3E3-F81B657D9061}.Release|Any CPU.Build.0 = Release|Any CPU
+		{234A425F-9F99-4039-95A4-89B6E350EECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{234A425F-9F99-4039-95A4-89B6E350EECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{234A425F-9F99-4039-95A4-89B6E350EECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{234A425F-9F99-4039-95A4-89B6E350EECA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
