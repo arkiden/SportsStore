@@ -9,6 +9,7 @@ namespace SportStore.WebUI.Controllers
 {
     public class ProductController : Controller
     {
+        public int PageSize = 4;
         private IProductRepository repository;
 
         public ProductController(IProductRepository productRepository)
@@ -16,9 +17,12 @@ namespace SportStore.WebUI.Controllers
             repository = productRepository;
         }
 
-        public ViewResult List()
+        public ViewResult List(int page = 1)
         {
-            return View(repository.Products);
+            return View(repository.Products
+                .OrderBy(p => p.ProductID)
+                .Skip((page - 1) * PageSize)
+                .Take(PageSize));
         }
     }
 }
