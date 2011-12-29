@@ -10,7 +10,7 @@ using SportsStore.Domain.Abstract;
 using SportsStore.Domain.Entities;
 using SportsStore.Domain.Concrete;
 
-namespace SportStore.WebUI.Infrastructure
+namespace SportsStore.WebUI.Infrastructure
 {
     public class NinjectControllerFactory : DefaultControllerFactory
     {

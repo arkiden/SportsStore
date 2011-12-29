@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f905e759-d717-4144-81cd-a81f0ae9d531" name="aharita@NSL-AHARITA 2011-12-28 23:01:35" runUser="NEARSOFT\aharita" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="eaabd991-2353-42dc-8f56-6d09c82f5c1f">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="aharita_NSL-AHARITA 2011-12-28 23_01_35">
+      <DeploymentItem filename="H:\GitProjects\SportsStore\SportStore.WebUI\bin\SportStore.WebUI.dll" />
+      <DeploymentItem filename="H:\GitProjects\SportsStore\packages\Ninject.2.2.1.4\lib\net40-Full\Ninject.dll" />
+      <DeploymentItem filename="H:\GitProjects\SportsStore\packages\Moq.4.0.10827\lib\NET40\Moq.dll" />
+      <DeploymentItem filename="H:\GitProjects\SportsStore\packages\EntityFramework.4.2.0.0\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="H:\GitProjects\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-12-28T23:01:35.8212259-07:00" queuing="2011-12-28T23:01:38.2182259-07:00" start="2011-12-28T23:01:38.5462259-07:00" finish="2011-12-28T23:02:06.3792259-07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Can_Paginate" storage="h:\gitprojects\sportsstore\sportsstore.unittests\bin\debug\sportsstore.unittests.dll" id="e5382814-0a83-faab-efea-367d92da8f13">
+      <Execution id="e52ccc54-7bd6-4225-8a2d-1600ffcd7733" />
+      <TestMethod codeBase="H:/GitProjects/SportsStore/SportsStore.UnitTests/bin/Debug/SportsStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SportsStore.UnitTests.ProductControllerTest, SportsStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Paginate" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="e5382814-0a83-faab-efea-367d92da8f13" executionId="e52ccc54-7bd6-4225-8a2d-1600ffcd7733" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e52ccc54-7bd6-4225-8a2d-1600ffcd7733" testId="e5382814-0a83-faab-efea-367d92da8f13" testName="Can_Paginate" computerName="NSL-AHARITA" duration="00:00:26.4075679" startTime="2011-12-28T23:01:38.7912259-07:00" endTime="2011-12-28T23:02:06.2252259-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e52ccc54-7bd6-4225-8a2d-1600ffcd7733">
+    </UnitTestResult>
+  </Results>
+</TestRun>

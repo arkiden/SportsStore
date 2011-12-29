@@ -4,9 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
-using SportStore.WebUI.Infrastructure;
+using SportsStore.WebUI.Infrastructure;
 
-namespace SportStore.WebUI
+namespace SportsStore.WebUI
 {
     // Note: For instructions on enabling IIS6 or IIS7 classic mode, 
     // visit http://go.microsoft.com/?LinkId=9394801
@@ -21,6 +21,12 @@ namespace SportStore.WebUI
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+
+            routes.MapRoute(
+                null, // we don't need to specify a name
+                "Page{page}",
+                new { Controller = "Product", action = "List" }
+            );
 
             routes.MapRoute(
                 "Default", // Route name

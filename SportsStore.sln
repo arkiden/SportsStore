@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStore.Domain", "SportsStore.Domain\SportsStore.Domain.csproj", "{476BF432-B9BC-4ABA-9F64-52CCCD6A9343}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportStore.WebUI", "SportStore.WebUI\SportStore.WebUI.csproj", "{4C3ED0C3-83E8-46B2-A3E3-F81B657D9061}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStore.WebUI", "SportStore.WebUI\SportsStore.WebUI.csproj", "{4C3ED0C3-83E8-46B2-A3E3-F81B657D9061}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStore.UnitTests", "SportsStore.UnitTests\SportsStore.UnitTests.csproj", "{234A425F-9F99-4039-95A4-89B6E350EECA}"
 EndProject
